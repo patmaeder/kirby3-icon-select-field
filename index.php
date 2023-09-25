@@ -6,20 +6,20 @@
  */
 $path = '/assets/feather/';
 
-Kirby::plugin('simplaflex/icon-select-field', [
+Kirby::plugin('patmaeder/icon-select-field', [
     'fields' => [
         'icon' => [
             'props' => [
                 'path' => $path,
-                'icons' => function() use ($path) {
-                    return Dir::files('.'.$path);
+                'icons' => function () use ($path) {
+                    return Dir::files('.' . $path);
                 },
             ]
         ]
     ],
     'fieldMethods' => [
         'toIcon' => function ($field) use ($path) {
-            return $path.$field->value;
+            return $path . $field->value;
         }
     ]
 ]);

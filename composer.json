@@ -1,5 +1,5 @@
 {
-    "name": "simplaflex/icon-select-field",
+    "name": "patmaeder/icon-select-field",
     "description": "A simple select field for the kirby panel, that allows selecting one of the icons stored on the server.",
     "type": "kirby-plugin",
     "license": "MIT",

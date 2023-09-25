@@ -1,4 +1,4 @@
-# Simplaflex Icon Select Field
+# Kirby 3 - Icon Select Field
 
 > This plugin currently doesn't feature multi language support. Title and help text can only be set for one language.
 
