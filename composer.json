@@ -1,0 +1,16 @@
+{
+    "name": "simplaflex/icon-select-field",
+    "description": "A simple select field for the kirby panel, that allows selecting one of the icons stored on the server.",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Patrick Mäder",
+            "email": "patrick.maeder@simplaflex.de"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
